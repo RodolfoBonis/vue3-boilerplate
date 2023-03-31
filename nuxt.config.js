@@ -4,15 +4,33 @@ export default defineNuxtConfig({
   head: {
     title: 'vue3-boilerplate',
     htmlAttrs: {
-      lang: 'en'
+      lang: 'en',
     },
     meta: [
-      {charset: 'utf-8'},
-      {name: 'viewport', content: 'width=device-width, initial-scale=1'},
-      {hid: 'description', name: 'description', content: ''},
-      {name: 'format-detection', content: 'telephone=no'}
+      {
+        charset: 'utf-8',
+      },
+      {
+        name: 'viewport',
+        content: 'width=device-width, initial-scale=1',
+      },
+      {
+        hid: 'description',
+        name: 'description',
+        content: '',
+      },
+      {
+        name: 'format-detection',
+        content: 'telephone=no',
+      },
     ],
-    link: [{rel: 'icon', type: 'image/x-icon', href: '/favicon.ico'}]
+    link: [
+      {
+        rel: 'icon',
+        type: 'image/x-icon',
+        href: '/favicon.ico',
+      },
+    ],
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
@@ -22,9 +40,7 @@ export default defineNuxtConfig({
   ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
-  plugins: [
-    '~/plugins/fontawesome.js'
-  ],
+  plugins: ['~/plugins/fontawesome.js'],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
   components: true,
@@ -36,25 +52,22 @@ export default defineNuxtConfig({
     // https://go.nuxtjs.dev/stylelint
     '@nuxtjs/stylelint-module',
     // https://go.nuxtjs.dev/tailwindcss
-    '@nuxt/postcss8'
+    '@nuxt/postcss8',
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
-  modules: [
-  ],
+  modules: [],
 
   styleResources: {
-    scss: [
-      './assets/scss/*.scss'
-    ]
+    scss: ['./assets/scss/*.scss'],
   },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   postcss: {
     plugins: {
       tailwindcss: {},
-      autoprefixer: {}
-    }
+      autoprefixer: {},
+    },
   },
 
   build: {},
@@ -62,6 +75,6 @@ export default defineNuxtConfig({
   devServerHandlers: [],
 
   server: {
-    host: "0.0.0.0"
-  }
+    host: '0.0.0.0',
+  },
 })

@@ -1,7 +1,11 @@
 import { library, config } from '@fortawesome/fontawesome-svg-core'
 // eslint-disable-next-line import/named
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
-import { faLinkedin, faTwitter, faGithub } from '@fortawesome/free-brands-svg-icons'
+import {
+  faLinkedin,
+  faTwitter,
+  faGithub,
+} from '@fortawesome/free-brands-svg-icons'
 
 // This line add brands icons into application
 /*
