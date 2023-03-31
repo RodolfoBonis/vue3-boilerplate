@@ -1,0 +1,62 @@
+{
+  "name": "vue3-boilerplate",
+  "version": "1.0.0",
+  "author": {
+    "name": "D'Bonis",
+    "email": "dev@rodolfodebonis.com.br",
+    "url": "https://github.com/RodolfoBonis"
+  },
+  "private": true,
+  "scripts": {
+    "dev": "nuxt dev",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "lint:js": "eslint --ext \".js,.ts,.vue\" --ignore-path .gitignore .",
+    "lint:style": "stylelint \"**/*.{css,scss,sass,html,vue}\" --ignore-path .gitignore",
+    "lint:prettier": "prettier --check .",
+    "lint": "yarn lint:js && yarn lint:style && yarn lint:prettier",
+    "lintfix": "prettier --write --list-different . && yarn lint:js --fix && yarn lint:style --fix",
+    "prepare": "husky install"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.4.0",
+    "@fortawesome/free-solid-svg-icons": "^6.4.0",
+    "@fortawesome/free-brands-svg-icons": "^6.4.0",
+    "@fortawesome/vue-fontawesome": "^3.0.3",
+    "@headlessui/vue": "^1.7.12",
+    "@heroicons/vue": "^2.0.17",
+    "axios": "^1.3.4",
+    "core-js": "^3.25.3",
+    "node-sass": "^8.0.0",
+    "nuxt": "^3.3.2",
+    "sass-loader": "^13.2.2",
+    "vue": "^3.2.47"
+  },
+  "devDependencies": {
+    "@babel/eslint-parser": "^7.19.1",
+    "@commitlint/cli": "^17.1.2",
+    "@commitlint/config-conventional": "^17.1.0",
+    "@nuxt/types": "^2.15.8",
+    "@nuxt/typescript-build": "^2.1.0",
+    "@nuxtjs/eslint-config-typescript": "^11.0.0",
+    "@nuxtjs/eslint-module": "^3.1.0",
+    "@nuxtjs/stylelint-module": "^4.1.0",
+    "@nuxtjs/tailwindcss": "^5.3.3",
+    "autoprefixer": "^10.4.14",
+    "eslint": "^8.24.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-nuxt": "^4.0.0",
+    "eslint-plugin-vue": "^9.5.1",
+    "husky": "^8.0.1",
+    "postcss": "^8.4.21",
+    "postcss-html": "^1.5.0",
+    "prettier": "^2.7.1",
+    "sass": "^1.60.0",
+    "stylelint": "^14.13.0",
+    "stylelint-config-prettier": "^9.0.3",
+    "stylelint-config-recommended-vue": "^1.4.0",
+    "stylelint-config-standard": "^28.0.0",
+    "tailwindcss": "^3.3.1"
+  }
+}
