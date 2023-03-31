@@ -2,7 +2,6 @@
 
 ![CI Status](https://github.com/RodolfoBonis/vue3-boilerplate/actions/workflows/ci.yml/badge.svg)
 
-
 ## Build Setup
 
 ```bash
