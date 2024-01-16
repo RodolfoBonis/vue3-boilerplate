@@ -30,7 +30,7 @@
     "core-js": "^3.25.3",
     "node-sass": "^9.0.0",
     "nuxt": "^3.5.1",
-    "sass-loader": "^13.2.2",
+    "sass-loader": "^14.0.0",
     "vue": "^3.2.47"
   },
   "devDependencies": {
